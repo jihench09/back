@@ -9,7 +9,7 @@ const cors = require('cors')
 const app=express()
 
 app.use(cors({
-  origin: 'https://695b87bd794266aa8c1e9a09--prettyjihen.netlify.app',
+  origin: 'https://695b91c4aaec2af16c50c962--prettyjihen.netlify.app/',
   credentials: true 
 }))
 
