@@ -1,6 +1,6 @@
 const Commande = require("../Models/Commande");
 const Panier = require("../Models/Panier");
-const transporter = require("../config/mailer");
+const transporter = require("../Config/Mailer");
 
 exports.updatedStatus= async (req, res) => {
     const { updating ,commentaire} = req.body;
